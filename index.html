@@ -138,11 +138,11 @@
             localStorage.setItem('theme', theme);
 
             if (theme === 'dark') {
-                themeIcon.className = 'fa-solid fa-sun';
-                themeLabel.textContent = 'Terang';
-            } else {
                 themeIcon.className = 'fa-solid fa-moon';
                 themeLabel.textContent = 'Gelap';
+            } else {
+                themeIcon.className = 'fa-solid fa-sun';
+                themeLabel.textContent = 'Terang';
             }
         }
 
